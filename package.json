@@ -1,9 +1,25 @@
 {
-  "name": "ghost-tide-login",
+  "name": "marineguard-ghost-tide",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
-  "scripts": { "dev": "vite --host", "build": "vite build" },
-  "dependencies": { "@react-three/fiber": "^9.3.0", "three": "^0.180.0", "react": "^19.1.1", "react-dom": "^19.1.1" },
-  "devDependencies": { "vite": "^7.3.6" }
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.6.1",
+    "framer-motion": "^12.12.1",
+    "recharts": "^2.15.3",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^5.0.0",
+    "lucide-react": "^0.511.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^7.3.6"
+  }
 }

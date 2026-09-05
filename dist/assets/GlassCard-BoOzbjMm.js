@@ -1,0 +1,1 @@
+import{j as s}from"./index-CRdvxR2Q.js";import{m as t}from"./proxy-DNU2KWHy.js";const c=({children:a,className:o="",style:i,onClick:r})=>s.jsxs(t.div,{className:"glass-card ${className}",style:i,onClick:r,initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.5},children:[s.jsx("div",{className:"glass-card-rim"}),a]});export{c as G};
